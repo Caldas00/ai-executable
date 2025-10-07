@@ -1,0 +1,6 @@
+model: local
+goal: "Create a folder for a FastAPI project called 'apiserver', set up a venv, and install fastapi+uvicorn."
+permissions:
+  - shell
+  - file_write
+workdir: .
